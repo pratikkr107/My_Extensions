@@ -1,0 +1,36 @@
+body {
+    min-width: 300px;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 20px;
+    min-width: 300px;
+}
+
+h1 {
+    color: #1e90ff;
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    background: linear-gradient(135deg, #ff7e5f, #feb47b);
+    margin: 10px 0;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    transition: transform 0.2s;
+}
+
+li:hover {
+    transform: scale(1.05);
+}

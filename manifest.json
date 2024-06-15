@@ -1,0 +1,13 @@
+{
+    "name":"My Chrome Extension",
+    "version":"1.0.0",
+    "description": "Best Extension in the World",
+    "manifest_version": 3,
+    "author":"Pratik kumar",
+    "action":{
+        "default_popup":"index.html",
+        "default_title":"My Chrome Extension"
+    }
+
+
+}
